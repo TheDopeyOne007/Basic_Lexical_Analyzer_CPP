@@ -134,6 +134,7 @@ void parseAndScanInputs(char* str){
                 if (isString(s_subStr))
                     printf("%s = string\n", s_subStr);
             }
+            
             else if (isVariable(subStr)
                      && !isDelimiter(str[right - 1]))
                 printf("%s = variable\n", subStr);
@@ -152,7 +153,6 @@ void parseAndScanInputs(char* str){
                     printf("%s = operator\n", subStr);
                 right++;
             }
-
             left = right;
         }
     }
