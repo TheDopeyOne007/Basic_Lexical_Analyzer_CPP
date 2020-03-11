@@ -1,0 +1,13 @@
+int main()
+{
+    cout << "Hello, World!";
+    a + b;
+    pi = 3.14;
+    return 0;
+    a == b;
+    a != b;
+    a - b;
+    if(a == b){
+    cout << "Equal";
+    }
+}
